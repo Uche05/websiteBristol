@@ -89,6 +89,19 @@ nav {
     color: #2e2532;
 }
 
+.header-div{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #e1da46;
+    color: #2e2532;
+}
+
+.header-div p{
+    font-family: 'Source Code Pro', 'Ubuntu Mono', 'Comic Sans';
+    text-align: center;
+}
 /*Media queries*/
 
 /*Header MQ for tablets and larger screens*/
