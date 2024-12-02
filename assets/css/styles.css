@@ -107,14 +107,14 @@ nav {
 }
 
 footer{
+    background-color: #2e2532;
+    color: #fbfbfb;                /* Text color */
+    text-align: center;          /* Center the text */
+    padding: 10px 0;             /* Some padding */
     position: relative;
     bottom: 0;
     width: 100%;
-    /*z-index???*/
-    background-color:#2e2532 ;
-    color: #fbfbfb ;
-    padding: 20px;
-    text-align: center;
+    margin-top: auto;  
 }
 
 /*Media queries*/
