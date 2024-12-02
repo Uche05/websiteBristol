@@ -26,8 +26,9 @@ h1 {
 /*Style header*/
 header {
     background-color: #fbfbfb;
-    position: fixed;
     width: 100%;
+    position: sticky; 
+    /*position: relative or absolute made main and footer come out of view*/
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
