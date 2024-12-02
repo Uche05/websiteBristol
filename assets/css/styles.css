@@ -88,7 +88,7 @@ nav {
 }
 
 .header-div{
-    position: absolute;
+    position: fixed;
     top: 100%;
     left: 0;
     width: 100%;
@@ -103,15 +103,6 @@ nav {
     text-align: center;
 }
 
-#just{
-    position: relative;
-}
-
-footer{
-    background-color: #2e2532;
-    color: #fbfbfb;                /* Text color */
-    display: block;  
-}
 
 /*Media queries*/
 
