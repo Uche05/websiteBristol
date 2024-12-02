@@ -32,6 +32,7 @@ header {
     position: fixed;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
@@ -89,6 +90,21 @@ nav {
     color: #2e2532;
 }
 
+.header-div{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #e1da46;
+    color: #2e2532;
+    flex-basis: 100%; /* Forces it to take the full width below flex items */
+    margin-top: 10px; /* Optional spacing */
+}
+
+.header-div p{
+    font-family: 'Source Code Pro', 'Ubuntu Mono', 'Comic Sans';
+    text-align: center;
+}
 /*Media queries*/
 
 /*Header MQ for tablets and larger screens*/
