@@ -105,6 +105,18 @@ nav {
     font-family: 'Source Code Pro', 'Ubuntu Mono', 'Comic Sans';
     text-align: center;
 }
+
+footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    /*z-index???*/
+    background-color:#2e2532 ;
+    color: #fbfbfb ;
+    padding: 20px;
+    text-align: center;
+}
+
 /*Media queries*/
 
 /*Header MQ for tablets and larger screens*/
