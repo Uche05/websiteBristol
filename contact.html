@@ -61,24 +61,26 @@
         </p>
 
 
-        <h1>Contact Us</h1>
-        <form id="contactForm">
-            <input type="text" id="name" placeholder="Your Name" required>
-            <input type="email" id="email" placeholder="Your Email" required>
-            <textarea id="message" placeholder="Your Message" required></textarea>
-
-
-            <label for="choice">What's your reason for contacting us?</label>
-            <input list="contact-reasons" id="choice" name="choice" type="text" />
-            <datalist id="contact-reasons">
-                <option value="Suggestions"></option>
-                <option value="Animal Threat"></option>
-                <option value="Animal Species Seen"></option>
-                <option value="Other"></option>
-            </datalist>
-
-            <button type="submit">Send</button>
-        </form>
+        <h2>Contact Us</h2>
+        <div id="contact-div">
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+    
+    
+                <label for="choice">What's your reason for contacting us?</label>
+                <input list="contact-reasons" id="choice" name="choice" type="text"/>
+                <datalist id="contact-reasons">
+                    <option value="Suggestions"></option>
+                    <option value="Animal Threat"></option>
+                    <option value="Animal Species Seen"></option>
+                    <option value="Other"></option>
+                </datalist>
+    
+                <button type="submit">Send</button>
+            </form>
+        </div>
 
     </main>
 

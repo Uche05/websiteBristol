@@ -185,9 +185,14 @@ h2 {
 }
 
 /*Contact Us Page*/
+
 #contactForm {
-    display: block;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#contactForm input{
+    
 }
 
 .p-main {
@@ -202,9 +207,9 @@ h2 {
 }
 
 .p-main::selection {
-    background-color: #e1da46;
+    background-color: #201A23;
     /* Background color of the highlight */
-    color: #201A23;
+    color: #e1da46;
     /* Text color of the highlight */
 }
 
