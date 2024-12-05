@@ -104,10 +104,11 @@ nav {
     text-align: center;
 }
 
-h2{
+h2 {
     margin-top: 10px;
     text-align: center;
 }
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -183,8 +184,33 @@ h2{
     }
 }
 
+/*Contact Us Page*/
+#contactForm {
+    display: block;
+    text-align: center;
+}
+
+.p-main {
+    font-family: 'Source Code Pro';
+    font-size: 30px;
+    line-break: loose;
+    padding: 2%;
+    background-color: #3ca80e;
+    color: #2e2532;
+    text-align: left;
+    margin: 2%;
+}
+
+.p-main::selection {
+    background-color: #e1da46;
+    /* Background color of the highlight */
+    color: #201A23;
+    /* Text color of the highlight */
+}
+
+
 footer {
-    margin-top: 25%;
+    margin-top: 50vh;
     padding: 2%;
     background-color: #201a23;
     color: #fbfbfb;
