@@ -213,7 +213,7 @@ footer {
     }
 
     #menu>li:hover {
-        text-decoration: underline #201a23;
+        font-weight: bolder;
     }
 
     .nav-tog-label {
