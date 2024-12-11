@@ -88,6 +88,9 @@ nav {
     color: #2e2532;
 }
 
+/*After the header*/
+
+
 #hero {
     width: 100%;
     padding: 0;
@@ -109,6 +112,7 @@ h2 {
     text-align: center;
 }
 
+/* Grid based images */
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -280,12 +284,39 @@ h2 {
     /* Text color of the highlight */
 }
 
+/* Footer and its contents */
 
 footer {
-    margin-top: 40px;
-    padding: 2%;
+    margin-top: 15%;
+    padding: 20px;
     background-color: #201a23;
     color: #fbfbfb;
+}
+
+h3{
+    font-size: 30px;
+}
+
+footer div p{
+    margin-top: 20px;
+    font-weight: bolder;
+}
+.fa-brands{
+    padding: 10px;
+    font-size: 200% 
+}
+
+i{
+    text-decoration: none;
+    color: #fbfbfb;
+}
+
+i:hover{
+    font-size: calc(200% + 10px);
+}
+
+div a{
+    text-decoration: none;
 }
 
 /*Media queries*/
@@ -325,7 +356,9 @@ footer {
     }
 }
 
-/* Responsive Design for grid boxes*/
+/* Responsive Design for grid boxes for tablet screens and phone*/
+
+/* Responsive design for tablet screen sizes */
 @media (max-width: 768px) {
     .grid-container {
         grid-template-columns: repeat(2, 1fr);
@@ -333,6 +366,7 @@ footer {
     }
 }
 
+/* Responsive design for phone sizes */
 @media (max-width: 480px) {
     .grid-container {
         grid-template-columns: 1fr;
@@ -340,7 +374,7 @@ footer {
     }
 }
 
-/* media queries for contact form */
+/* media queries for contact form for tablets and smaller devices */
 @media (max-width: 600px) {
     #contact-div {
         padding: 15px;
