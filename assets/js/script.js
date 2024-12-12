@@ -35,14 +35,14 @@ const paragraphContent = document.getElementById("paragraph-content");
 function openPopup(type) {
     // Update content based on the `type` parameter
     if (type === "dog") {
-        headerContent.textContent = "About Dogs";
-        paragraphContent.textContent = "Dogs are loyal and friendly animals, often considered a human's best friend.";
+        headerContent.textContent = "The Bristolian Dogs";
+        paragraphContent.textContent = "Dogs are definitely Bristolians' best friends. There's literally no day you won't see one";
     } else if (type === "cat") {
-        headerContent.textContent = "About Cats";
-        paragraphContent.textContent = "Cats are independent and graceful animals, known for their agility and charm.";
+        headerContent.textContent = "Sneaky Cats";
+        paragraphContent.textContent = "These graceful creatures are very agile and you won't often see them in the mornings or evenings.";
     } else if (type === "swan") {
-        headerContent.textContent = "About Swans";
-        paragraphContent.textContent = "Swans are elegant birds known for their beauty, often symbolizing love and purity.";
+        headerContent.textContent = "Avonmouth Swans";
+        paragraphContent.textContent = "Residing in Avonmouth, these birds are very cheeky. Please take heed to the swan signs you see on the roads to Severn Beach or Avonmouth Wraehouse regions!";
     }
 
     // Show the popup
