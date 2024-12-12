@@ -224,6 +224,7 @@ h2 {
     background: rgba(0, 0, 0, 0.9);
 }
 
+/* The semi-transparent background */
 .popup {
     display: none;
     position: fixed;
@@ -236,6 +237,7 @@ h2 {
     align-items: center;
 }
 
+/* The actual pop-up content */
 .popup-content {
     background: #fff;
     padding: 20px;
