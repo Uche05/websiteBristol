@@ -24,3 +24,5 @@ window.onclick = function (event) {
         popup.style.display = "none";
     }
 };
+
+// change text content based on the image

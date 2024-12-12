@@ -118,6 +118,18 @@ h2 {
     text-align: center;
 }
 
+/* Cafe page disclaimer text */
+.disclaimer{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #EC9090;
+    text-align: center;
+    margin: 10px;
+    font-weight: bolder;
+    font-size: large;
+}
+
+
 /* Grid based images */
 .grid-container {
     display: grid;
@@ -374,7 +386,7 @@ footer div p {
     font-weight: bolder;
 }
 
-.fa-brands {
+.fa-footer {
     padding: 10px;
     font-size: 200%
 }
@@ -384,7 +396,7 @@ i {
     color: #fbfbfb;
 }
 
-i:hover {
+.fa-footer:hover {
     font-size: calc(200% + 10px);
 }
 
