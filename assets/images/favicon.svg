@@ -1,0 +1,20 @@
+<svg id="svg2" viewBox="0 0 500 670" xmlns="http://www.w3.org/2000/svg">
+    <desc>Source: openclipart.org/detail/209545</desc>
+    <defs>
+        <radialGradient id="radialGradient50" gradientUnits="userSpaceOnUse" cy="13.127" cx="23.404"
+            gradientTransform="matrix(9.477364, 10.273408, 9.367074, -10.407683, -215.77565, 326.421863)" r="14.286">
+            <stop id="stop52" style="stop-color: #ff0008" offset="0"></stop>
+            <stop id="stop54" style="stop-color: #800005" offset="1"></stop>
+        </radialGradient>
+    </defs>
+    <rect x="102.959" y="53.528" width="244.847" height="148.547" style="stroke: rgb(0, 0, 0); fill: rgb(60, 168, 14);">
+    </rect>
+    <rect x="88.616" y="50.455" width="82.982" height="49.174" style="stroke: rgb(0, 0, 0); fill: rgb(225, 218, 70);">
+    </rect>
+    <rect x="299.656" y="49.43" width="76.835" height="48.15" style="stroke: rgb(0, 0, 0); fill: rgb(225, 218, 70);">
+    </rect>
+    <rect x="171.598" y="143.681" width="119.862" height="39.954"
+        style="stroke: rgb(0, 0, 0); fill: rgb(216, 159, 159);"></rect>
+    <rect x="224.87" y="106.8" width="5.122" height="10.245" style="stroke: rgb(0, 0, 0); fill: rgb(216, 205, 118);">
+    </rect>
+</svg>
