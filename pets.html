@@ -63,10 +63,18 @@
         <section>
 
             <div class="image-container dog">
-                    <img src="assets/images/dogs.jpg" alt="Dog Image" class="image">
-                    <div class="icon" onclick="openPopup()">
-                        &#8505;&#65039;
-                    </div>
+                <img src="assets/images/dogs.jpg" alt="Dog Image" class="image">
+                <div class="icon" onclick="openPopup('dog')">&#8505;&#65039;</div>
+            </div>
+
+            <div class="image-container cat">
+                <img src="assets/images/cats.jpg" alt="Cat Image" class="image">
+                <div class="icon" onclick="openPopup('cat')">&#8505;&#65039;</div>
+            </div>
+
+            <div class="image-container swans">
+                <img src="assets/images/swans.jpg" alt="Swan Image" class="image">
+                <div class="icon" onclick="openPopup('swan')">&#8505;&#65039;</div>
             </div>
 
 
@@ -75,7 +83,8 @@
                 <div class="popup-content">
                     <span class="close-btn" onclick="closePopup()">&times;</span>
                     <h2 id="header-content">Image Information</h2>
-                    <p id="paragraph-content">This is some information about the image. You can include text, links, or anything you'd like.
+                    <p id="paragraph-content">This is some information about the image. You can include text, links, or
+                        anything you'd like.
                     </p>
                 </div>
             </div>
